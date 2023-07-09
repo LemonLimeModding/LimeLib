@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "tech.lemonlime.lib.consumables.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ItemStackMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

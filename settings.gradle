@@ -1,0 +1,18 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+
+rootProject.name = "limelib"
+
+include("multiblock")
+include("consumables")
+include("baselib")
+//project(":multiblock").projectDir = file("multiblock")
