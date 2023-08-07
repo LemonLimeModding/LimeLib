@@ -14,7 +14,13 @@
 	"license": "MIT",
 	"icon": "assets/limelib-multiblock/icon.png",
 	"environment": "*",
-	"entrypoints": {},
+	"entrypoints": {
+
+		"main": [
+			"tech.lemonlime.lib.multiblock.MultiBlockInit"
+		]
+
+	},
 	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.14.21",

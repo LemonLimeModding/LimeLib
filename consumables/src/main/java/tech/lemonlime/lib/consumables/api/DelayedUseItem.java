@@ -31,7 +31,7 @@ public abstract class DelayedUseItem extends Item implements IDelayedUseItem {
             return;
         }
 
-        if ((!item.stopsOnLostFocus() || (selected || slot== PlayerInventory.OFF_HAND_SLOT))) {
+        if ((!item.stopsOnLostFocus() || (selected || slot == PlayerInventory.OFF_HAND_SLOT || slot == 0))) {
             int newTickTime = useStack.getTickTime()+1;
             if (newTickTime <= 1) return;
             useStack.setTickTime(newTickTime);
